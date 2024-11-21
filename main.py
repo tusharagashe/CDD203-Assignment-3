@@ -56,11 +56,10 @@ def main():
     # Provide a reasoning based on what you have done above: 
     
     """
-    How many species of flowers are there: 2
+    How many species of flowers are there: 3
     
-    Reasoning: I believe there are 2 species of flowers because of the silhoutte score and the elbow plot. The silhoutte score
-               for k=2 was the highest at 0.65. The elbow plot rapidly decreased from k=1 to k=2 but after that slowly decreased
-               indicating an elbow point at k=2 meaning that most likely is the optimal k value. 
+    Reasoning: I believe there are 3 species of flowers as indicated by the elbow plot. 3 is the elbow of the cruve because when moving past k=3 the error values only
+               slightly decrease (the rate of decrease is is slowing down) meaning as more clusters are being added the fit is not improving. 
     """
 
     
